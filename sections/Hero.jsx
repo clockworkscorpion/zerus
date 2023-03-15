@@ -31,7 +31,7 @@ const Hero = () => {
             variants={textVariant(1)}
             className="absolute top-0 left-20"
           >
-            {/* <img
+            {/* <Image
               src="/logo-name.svg"
               alt="logo"
               className="w-[100%] h-auto min-w-[256px] min-h-[60px] max-h-[150px] max-w-[1024px] object-fit align-middle"

@@ -11,6 +11,7 @@ import {
   imageMotionVariants,
 } from "@/utils/motion";
 import { researchAreas } from "@/constants";
+import Image from "next/image";
 
 const Research = () => (
   <section className={`${styles.paddings} relative z-10`} id="research">
@@ -51,7 +52,7 @@ const Research = () => (
           variants={zoomIn(0.4, 1)}
           className={`flex-[0.40] ${styles.flexCenter}`}
         >
-          <img
+          <Image
             src="/rndplatform.jpg"
             alt="rndplatform"
             className="w-[75%] h-[75%] object-cover"

@@ -1,12 +1,13 @@
 import {NumberBullet} from "@/components";
 import styles from "@/styles";
+import Image from "next/image";
 
 const NewResearchFeatures = ({ imgUrl, title, bulletpoints }) => (
   <div className="flex-1 flex flex-col sm:max-w-[250px] min-w-[210]">
     {/* <div className={`${styles.flexCenter} w-[70px] h-[70px] rounded-[24px] bg-[#323f5d]}`}>
 
     </div> */}
-    <img src={imgUrl} alt="icon" className="w-10 h-10 object-contain" />
+    <Image src={imgUrl} alt="icon" className="w-10 h-10 object-contain" />
     <h1 className="mt-[26px] font-bold text-[24px] leading-[30px] text-white">
       {title}
     </h1>

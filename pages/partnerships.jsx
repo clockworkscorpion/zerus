@@ -10,6 +10,7 @@ import {
   zoomIn,
 } from "@/utils/motion";
 import { partners } from "@/public/partners";
+import Image from "next/image";
 
 const Partnerships = () => (
   <section
@@ -48,7 +49,7 @@ const Partnerships = () => (
         >
           {partners.map((partner) => (
             <div>
-              <img src={partner} className="max-h-[100px] bg-white cursor-pointer p-[4px]" key={partner} />
+              <Image src={partner} className="max-h-[100px] bg-white cursor-pointer p-[4px]" key={partner} />
             </div>
           ))}
         </motion.div>
@@ -57,7 +58,7 @@ const Partnerships = () => (
         variants={zoomIn(0.4, 1)}
         className={`flex-[0.40] ${styles.flexCenter}`}
       >
-        <img
+        <Image
           src="/process.jpg"
           alt="process"
           className="w-[75%] h-[75%] object-cover"

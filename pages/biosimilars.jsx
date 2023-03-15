@@ -11,6 +11,7 @@ import {
   imageMotionVariants,
 } from "@/utils/motion";
 import { newFeatures } from "@/constants";
+import Image from "next/image";
 
 const Biosimilars = () => (
   <section
@@ -60,7 +61,7 @@ const Biosimilars = () => (
         variants={zoomIn(0.4, 1)}
         className={`flex-[0.40] ${styles.flexCenter}`}
       >
-        <img
+        <Image
           src="/biosimilars.png"
           alt="biosimilars"
           className="w-[75%] h-[75%] object-fill"

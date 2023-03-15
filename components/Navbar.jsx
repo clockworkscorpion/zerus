@@ -63,7 +63,7 @@ const Navbar = () => {
           {/* <h1 style={{ color: `${textColor}` }} className="font-bold text-4xl">
             Logo
           </h1> */}
-          <img
+          <Image
             src="/logo.svg"
             alt="logo"
             className="w-[320px] h-[50px] object-fit align-middle"
