@@ -1,4 +1,4 @@
-'use-client'
+"use-client";
 
 import React from "react";
 import { motion } from "framer-motion";
@@ -17,12 +17,18 @@ const Hero = () => {
         autoPlay
         preload="auto"
         playsInline
-        controls
         loop
         muted
         poster="./cover.jpg"
         className="hero-video"
-      />
+      >
+        <source src="./hero.mp4" type="video/mp4" />
+        <source
+          src="https://player.vimeo.com/video/808436350"
+          type="video/mp4"
+        />
+        Your browser does not support the video tag.
+      </video>
       {/* <div className="p-5 text-white z-[2] mt-[2rem]"> */}
       <div className="hero-content">
         <motion.div
