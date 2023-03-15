@@ -1,3 +1,5 @@
+'use-client'
+
 import React from "react";
 import { motion } from "framer-motion";
 
@@ -14,6 +16,7 @@ const Hero = () => {
         autoPlay
         loop
         muted
+        poster="./cover.jpg"
         className="hero-video"
       />
       {/* <div className="p-5 text-white z-[2] mt-[2rem]"> */}
