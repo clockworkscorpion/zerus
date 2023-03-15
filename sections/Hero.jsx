@@ -14,6 +14,8 @@ const Hero = () => {
       <video
         src="https://player.vimeo.com/video/808436350?h=cb4f6605b4&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
         autoPlay
+        preload="auto"
+        playsInline
         loop
         muted
         poster="./cover.jpg"
