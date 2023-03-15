@@ -49,7 +49,7 @@ const Partnerships = () => (
         >
           {partners.map((partner) => (
             <div>
-              <Image src={partner} className="max-h-[100px] bg-white cursor-pointer p-[4px]" key={partner} />
+              <Image src={partner} alt={partner} className="max-h-[100px] bg-white cursor-pointer p-[4px]" key={partner} />
             </div>
           ))}
         </motion.div>
