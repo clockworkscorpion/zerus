@@ -47,7 +47,7 @@ const Pipeline = () => {
           ))}
         </div>
       </motion.div>
-      <div className="zerus___pipeline-list">
+      <div className="mt-[-3rem]">
         {drugs.map((drug, index) => (
           <PipelineElement key={drug.name} {...drug} />
         ))}
