@@ -49,7 +49,7 @@ const Partnerships = () => (
         >
           {partners.map((partner) => (
             <div>
-              <Image src={partner} alt={partner} className="max-h-[360px] bg-white cursor-pointer p-[4px]" key={partner} />
+              <Image src={partner} alt={partner} className="max-h-[360px] bg-white cursor-pointer p-[8px]" key={partner} style={{borderRadius: 12}}/>
             </div>
           ))}
         </motion.div>
